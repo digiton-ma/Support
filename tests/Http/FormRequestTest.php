@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Http;
+namespace Digitonma\Support\Tests\Http;
 
-use Arcanedev\Support\Tests\Stubs\FormRequestController;
-use Arcanedev\Support\Tests\TestCase;
+use Digitonma\Support\Tests\Stubs\FormRequestController;
+use Digitonma\Support\Tests\TestCase;
 use Illuminate\Routing\Router;
 
 /**
  * Class     FormRequestTest
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class FormRequestTest extends TestCase
 {
@@ -40,15 +40,15 @@ class FormRequestTest extends TestCase
              ->assertRedirect('/');
 
         $response = $this->post('form-request', [
-            'name'  => 'ARCANEDEV',
-            'email' => 'arcanedev@example.com',
+            'name'  => 'DIGITONMA',
+            'email' => 'digitonma@example.com',
         ]);
 
         $response
             ->assertSuccessful()
             ->assertJson([
-                'name'  => 'ARCANEDEV',
-                'email' => 'arcanedev@example.com',
+                'name'  => 'DIGITONMA',
+                'email' => 'digitonma@example.com',
             ]);
     }
 
@@ -56,15 +56,15 @@ class FormRequestTest extends TestCase
     public function it_can_sanitize(): void
     {
         $response = $this->post('form-request', [
-            'name'  => 'Arcanedev',
-            'email' => ' ARCANEDEV@example.COM ',
+            'name'  => 'digitonma',
+            'email' => ' DIGITONMA@example.COM ',
         ]);
 
         $response
             ->assertSuccessful()
             ->assertJson([
-                'name'  => 'ARCANEDEV',
-                'email' => 'arcanedev@example.com',
+                'name'  => 'DIGITONMA',
+                'email' => 'digitonma@example.com',
             ]);
     }
 

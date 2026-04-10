@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Providers\Concerns;
+namespace Digitonma\Support\Providers\Concerns;
 
 /**
  * Trait     HasFactories
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 trait HasFactories
 {

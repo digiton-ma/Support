@@ -1,13 +1,13 @@
 {
-    "name":        "arcanedev/support",
-    "description": "ARCANEDEV Support Helpers",
-    "keywords":    ["arcanedev", "arcanesoft", "support", "laravel"],
-    "homepage":    "https://github.com/ARCANEDEV/Support",
+    "name":        "digiton-ma/support",
+    "description": "Digitonma Support Helpers",
+    "keywords":    ["digiton-ma", "support", "laravel"],
+    "homepage":    "https://github.com/digiton-ma/Support",
     "authors": [
         {
-            "name":     "ARCANEDEV",
-            "email":    "arcanedev.maroc@gmail.com",
-            "homepage": "https://github.com/arcanedev-maroc"
+            "name":     "Abdelhamid Errahmouni",
+            "email":    "abdelhamid.errahmouni@gmail.com",
+            "homepage": "https://github.com/abdelhamiderrahmouni"
         }
     ],
     "type":    "library",
@@ -24,13 +24,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Arcanedev\\Support\\": "src/"
+            "Digitonma\\Support\\": "src/"
         },
         "files": ["helpers.php"]
     },
     "autoload-dev": {
         "psr-4": {
-            "Arcanedev\\Support\\Tests\\": "tests/"
+            "Digitonma\\Support\\Tests\\": "tests/"
         }
     },
     "scripts": {

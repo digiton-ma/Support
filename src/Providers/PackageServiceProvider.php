@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Providers;
+namespace Digitonma\Support\Providers;
 
-use Arcanedev\Support\Exceptions\PackageException;
-use Arcanedev\Support\Providers\Concerns\{
+use Digitonma\Support\Exceptions\PackageException;
+use Digitonma\Support\Providers\Concerns\{
     HasAssets, HasConfig, HasFactories, HasMigrations, HasTranslations, HasViews
 };
 use Illuminate\Contracts\Foundation\Application;
@@ -15,7 +15,7 @@ use ReflectionClass;
 /**
  * Class     PackageServiceProvider
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 abstract class PackageServiceProvider extends ServiceProvider
 {
@@ -41,7 +41,7 @@ abstract class PackageServiceProvider extends ServiceProvider
      *
      * @var string
      */
-    protected $vendor = 'arcanedev';
+    protected $vendor = 'digiton-ma';
 
     /**
      * Package name.
@@ -162,7 +162,7 @@ abstract class PackageServiceProvider extends ServiceProvider
     /**
      * Check package name.
      *
-     * @throws \Arcanedev\Support\Exceptions\PackageException
+     * @throws \Digitonma\Support\Exceptions\PackageException
      */
     protected function checkPackageName(): void
     {

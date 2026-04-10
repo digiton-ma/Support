@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Stubs;
+namespace Digitonma\Support\Tests\Stubs;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Routing\Controller;
@@ -10,7 +10,7 @@ use Illuminate\Routing\Controller;
 /**
  * Class     FormRequestController
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class FormRequestController extends Controller
 {

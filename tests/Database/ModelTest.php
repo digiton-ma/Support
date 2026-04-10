@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Database;
+namespace Digitonma\Support\Tests\Database;
 
-use Arcanedev\Support\Tests\TestCase;
+use Digitonma\Support\Tests\TestCase;
 
 /**
  * Class     ModelTest
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class ModelTest extends TestCase
 {
@@ -18,7 +18,7 @@ class ModelTest extends TestCase
      | -----------------------------------------------------------------
      */
 
-    /** @var  \Arcanedev\Support\Database\PrefixedModel */
+    /** @var  \Digitonma\Support\Database\PrefixedModel */
     protected $model;
 
     /* -----------------------------------------------------------------
@@ -30,7 +30,7 @@ class ModelTest extends TestCase
     {
         parent::setUp();
 
-        $this->model = new \Arcanedev\Support\Tests\Stubs\Models\Product;
+        $this->model = new \Digitonma\Support\Tests\Stubs\Models\Product;
     }
 
     public function tearDown(): void
@@ -50,7 +50,7 @@ class ModelTest extends TestCase
     {
         $expectations = [
             \Illuminate\Database\Eloquent\Model::class,
-            \Arcanedev\Support\Database\PrefixedModel::class,
+            \Digitonma\Support\Database\PrefixedModel::class,
         ];
 
         foreach ($expectations as $expected) {

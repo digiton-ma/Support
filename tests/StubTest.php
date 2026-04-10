@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests;
+namespace Digitonma\Support\Tests;
 
-use Arcanedev\Support\Stub;
+use Digitonma\Support\Stub;
 use Illuminate\Support\Str;
 
 /**
  * Class     StubTest
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class StubTest extends TestCase
 {
@@ -19,7 +19,7 @@ class StubTest extends TestCase
      | -----------------------------------------------------------------
      */
 
-    /** @var  \Arcanedev\Support\Stub */
+    /** @var  \Digitonma\Support\Stub */
     private $stub;
 
     /* -----------------------------------------------------------------
@@ -53,7 +53,7 @@ class StubTest extends TestCase
             $file = $this->getFixturesPath('stubs/composer.stub')
         );
 
-        static::assertInstanceOf(\Arcanedev\Support\Stub::class, $this->stub);
+        static::assertInstanceOf(\Digitonma\Support\Stub::class, $this->stub);
 
         $fileContent = file_get_contents($file);
 
@@ -71,11 +71,11 @@ class StubTest extends TestCase
         $this->stub = Stub::create('composer.stub');
 
         $this->stub->replaces([
-            'VENDOR'            => 'arcanedev',
+            'VENDOR'            => 'digiton-ma',
             'PACKAGE'           => 'package',
-            'AUTHOR_NAME'       => 'ARCANEDEV',
-            'AUTHOR_EMAIL'      => 'arcanedev.maroc@gmail.com',
-            'MODULE_NAMESPACE'  => Str::studly('arcanedev'),
+            'AUTHOR_NAME'       => 'Digitonma',
+            'AUTHOR_EMAIL'      => 'contact@digiton.ma',
+            'MODULE_NAMESPACE'  => 'Digitonma',
             'STUDLY_NAME'       => Str::studly('package'),
         ]);
 

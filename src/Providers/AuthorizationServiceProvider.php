@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Providers;
+namespace Digitonma\Support\Providers;
 
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider;
 use Illuminate\Support\Facades\Gate;
@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Gate;
 /**
  * Class     AuthorizationServiceProvider
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 abstract class AuthorizationServiceProvider extends AuthServiceProvider
 {

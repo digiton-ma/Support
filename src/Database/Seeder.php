@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Database;
+namespace Digitonma\Support\Database;
 
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Database\Seeder as IlluminateSeeder;
@@ -10,7 +10,7 @@ use Illuminate\Database\Seeder as IlluminateSeeder;
 /**
  * Class     Seeder
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 abstract class Seeder extends IlluminateSeeder
 {

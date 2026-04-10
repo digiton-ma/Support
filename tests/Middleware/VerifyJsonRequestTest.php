@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Middleware;
+namespace Digitonma\Support\Tests\Middleware;
 
-use Arcanedev\Support\Middleware\VerifyJsonRequest;
-use Arcanedev\Support\Tests\TestCase;
+use Digitonma\Support\Middleware\VerifyJsonRequest;
+use Digitonma\Support\Tests\TestCase;
 use Illuminate\Routing\Router;
 
 /**
  * Class     VerifyJsonRequestTest
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class VerifyJsonRequestTest extends TestCase
 {

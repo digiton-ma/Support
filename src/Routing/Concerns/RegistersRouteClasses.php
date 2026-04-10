@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Routing\Concerns;
+namespace Digitonma\Support\Routing\Concerns;
 
 /**
  * Trait     RegistersRouteClasses
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 trait RegistersRouteClasses
 {

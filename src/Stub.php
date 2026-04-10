@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support;
+namespace Digitonma\Support;
 
 /**
  * Class     Stub
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class Stub
 {

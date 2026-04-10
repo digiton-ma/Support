@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Providers\Concerns;
+namespace Digitonma\Support\Providers\Concerns;
 
 use Illuminate\Support\Str;
 
 /**
  * Trait     HasConfig
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 trait HasConfig
 {

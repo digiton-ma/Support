@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests;
+namespace Digitonma\Support\Tests;
 
-use Arcanedev\Support\Tests\Stubs\RouteServiceProviderWithRouteClasses;
+use Digitonma\Support\Tests\Stubs\RouteServiceProviderWithRouteClasses;
 use Orchestra\Testbench\TestCase as BaseTestCase;
 
 /**
  * Class     TestCase
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 abstract class TestCase extends BaseTestCase
 {

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Database;
+namespace Digitonma\Support\Database;
 
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class     PrefixedModel
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 abstract class PrefixedModel extends Model
 {

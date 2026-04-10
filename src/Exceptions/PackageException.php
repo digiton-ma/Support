@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Exceptions;
+namespace Digitonma\Support\Exceptions;
 
 use Exception;
 
 /**
  * Class     PackageException
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class PackageException extends Exception
 {

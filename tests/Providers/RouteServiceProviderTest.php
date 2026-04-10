@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Providers;
+namespace Digitonma\Support\Tests\Providers;
 
-use Arcanedev\Support\Tests\TestCase;
+use Digitonma\Support\Tests\TestCase;
 
 /**
  * Class     RouteServiceProviderTest
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class RouteServiceProviderTest extends TestCase
 {

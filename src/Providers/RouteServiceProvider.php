@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Providers;
+namespace Digitonma\Support\Providers;
 
-use Arcanedev\Support\Routing\Concerns\RegistersRouteClasses;
+use Digitonma\Support\Routing\Concerns\RegistersRouteClasses;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as IlluminateServiceProvider;
 
 /**
  * Class     RouteServiceProvider
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 abstract class RouteServiceProvider extends IlluminateServiceProvider
 {

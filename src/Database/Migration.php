@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Database;
+namespace Digitonma\Support\Database;
 
 use Closure;
 use Illuminate\Database\Migrations\Migration as IlluminateMigration;
@@ -11,7 +11,7 @@ use Illuminate\Database\Schema\Builder;
 /**
  * Class     Migration
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 abstract class Migration extends IlluminateMigration
 {

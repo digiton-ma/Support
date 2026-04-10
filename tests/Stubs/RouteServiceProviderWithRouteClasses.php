@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Stubs;
+namespace Digitonma\Support\Tests\Stubs;
 
-use Arcanedev\Support\Providers\RouteServiceProvider;
+use Digitonma\Support\Providers\RouteServiceProvider;
 
 /**
  * Class     RouteServiceProviderWithRouteClasses
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class RouteServiceProviderWithRouteClasses extends RouteServiceProvider
 {
@@ -19,7 +19,7 @@ class RouteServiceProviderWithRouteClasses extends RouteServiceProvider
      */
 
     protected $routesClasses = [
-        \Arcanedev\Support\Tests\Stubs\PagesRoutes::class,
+        \Digitonma\Support\Tests\Stubs\PagesRoutes::class,
     ];
 
     /* -----------------------------------------------------------------

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Providers;
+namespace Digitonma\Support\Providers;
 
 /**
  * Class     CommandServiceProvider
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 abstract class CommandServiceProvider extends ServiceProvider
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Routing;
+namespace Digitonma\Support\Routing;
 
-use Arcanedev\Support\Routing\Concerns\RegistersRouteClasses;
+use Digitonma\Support\Routing\Concerns\RegistersRouteClasses;
 use Illuminate\Contracts\Routing\Registrar;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Traits\ForwardsCalls;
@@ -12,7 +12,7 @@ use Illuminate\Support\Traits\ForwardsCalls;
 /**
  * Class     RouteRegistrar
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  *
  * @method  \Illuminate\Routing\RouteRegistrar  bind(string $key, \Closure $binder)
  * @method  void                                map()

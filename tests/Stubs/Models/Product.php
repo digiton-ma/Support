@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Stubs\Models;
+namespace Digitonma\Support\Tests\Stubs\Models;
 
-use Arcanedev\Support\Database\PrefixedModel;
+use Digitonma\Support\Database\PrefixedModel;
 
 /**
  * Class     Product
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class Product extends PrefixedModel
 {

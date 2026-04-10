@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Http;
+namespace Digitonma\Support\Tests\Http;
 
-use Arcanedev\Support\Tests\Stubs\DummyController;
-use Arcanedev\Support\Tests\TestCase;
+use Digitonma\Support\Tests\Stubs\DummyController;
+use Digitonma\Support\Tests\TestCase;
 use Illuminate\Routing\Router;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 /**
  * Class     ControllerTest
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class ControllerTest extends TestCase
 {

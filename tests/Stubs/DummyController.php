@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Stubs;
+namespace Digitonma\Support\Tests\Stubs;
 
 use Illuminate\Routing\Controller;
 
 /**
  * Class     DummyController
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class DummyController extends Controller
 {

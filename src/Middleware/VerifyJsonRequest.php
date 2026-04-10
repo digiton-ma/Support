@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Middleware;
+namespace Digitonma\Support\Middleware;
 
 use Closure;
 use Illuminate\Http\{JsonResponse, Request, Response};
@@ -10,7 +10,7 @@ use Illuminate\Http\{JsonResponse, Request, Response};
 /**
  * Class     VerifyJsonRequest
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class VerifyJsonRequest
 {

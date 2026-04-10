@@ -1,20 +1,20 @@
 {
-    "name": "arcanedev/package",
+    "name": "digiton-ma/package",
     "description": "",
     "authors": [
         {
-            "name": "ARCANEDEV",
-            "email": "arcanedev.maroc@gmail.com"
+            "name": "Digitonma",
+            "email": "contact@digiton.ma"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Arcanedev\\Package\\": "src/"
+            "Digitonma\\Package\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Arcanedev\\Package\\Tests\\": "tests/"
+            "Digitonma\\Package\\Tests\\": "tests/"
         }
     }
 }

@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Providers;
+namespace Digitonma\Support\Tests\Providers;
 
-use Arcanedev\Support\Exceptions\PackageException;
-use Arcanedev\Support\Tests\Stubs\{InvalidPackageServiceProvider, TestPackageServiceProvider};
-use Arcanedev\Support\Tests\TestCase;
+use Digitonma\Support\Exceptions\PackageException;
+use Digitonma\Support\Tests\Stubs\{InvalidPackageServiceProvider, TestPackageServiceProvider};
+use Digitonma\Support\Tests\TestCase;
 
 /**
  * Class     PackageServiceProviderTest
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class PackageServiceProviderTest extends TestCase
 {
@@ -20,7 +20,7 @@ class PackageServiceProviderTest extends TestCase
      | -----------------------------------------------------------------
      */
 
-    /** @var  \Arcanedev\Support\Tests\Stubs\TestPackageServiceProvider */
+    /** @var  \Digitonma\Support\Tests\Stubs\TestPackageServiceProvider */
     private $provider;
 
     /* -----------------------------------------------------------------
@@ -47,9 +47,9 @@ class PackageServiceProviderTest extends TestCase
     {
         $expectations = [
             \Illuminate\Support\ServiceProvider::class,
-            \Arcanedev\Support\Providers\ServiceProvider::class,
-            \Arcanedev\Support\Providers\PackageServiceProvider::class,
-            \Arcanedev\Support\Tests\Stubs\TestPackageServiceProvider::class,
+            \Digitonma\Support\Providers\ServiceProvider::class,
+            \Digitonma\Support\Providers\PackageServiceProvider::class,
+            \Digitonma\Support\Tests\Stubs\TestPackageServiceProvider::class,
         ];
 
         foreach ($expectations as $expected) {

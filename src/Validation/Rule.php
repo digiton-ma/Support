@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Validation;
+namespace Digitonma\Support\Validation;
 
 use Illuminate\Contracts\Validation\Rule as RuleContract;
 
 /**
  * Class     Rule
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  *
  * @deprecated Use the ValidationRule class instead.
  * @see \Illuminate\Contracts\Validation\ValidationRule

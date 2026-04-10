@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Arcanedev\Support\Tests\Stubs;
+namespace Digitonma\Support\Tests\Stubs;
 
-use Arcanedev\Support\Routing\RouteRegistrar;
+use Digitonma\Support\Routing\RouteRegistrar;
 
 /**
  * Class     PagesRoutes
  *
- * @author   ARCANEDEV <arcanedev.maroc@gmail.com>
+ * @author   Digitonma <contact@digiton.ma>
  */
 class PagesRoutes extends RouteRegistrar
 {
